@@ -1,6 +1,6 @@
 {
   "name": "typed-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,7 +17,9 @@
     "typescript": "^5.0.4"
   },
   "type": "module",
-  "files": ["./dist/*"],
+  "files": [
+    "./dist/*"
+  ],
   "module": "dist/index.esm.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts"
