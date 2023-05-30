@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node scripts/build.js"
+    "build": "node scripts/build.js",
+    "watch:dev": "npx ts-node --esm scripts/devs/watch.ts"
   },
   "keywords": [],
   "author": "elhakimdev",
